@@ -1,6 +1,7 @@
 # Use Node.js Alpine LTS - much smaller base image
 FROM node:lts-alpine
 
+
 # Install build dependencies and cleanup in single layer
 RUN apk add --no-cache \
     curl \
